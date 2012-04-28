@@ -13,14 +13,13 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "image_toolbox"
-  gem.homepage = "http://github.com/whatbird/image_toolbox"
+  gem.homepage = "http://github.com/the55/image_toolbox"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "chris@whatbirdthings.com"
-  gem.authors = ["chris a"]
+  gem.summary = %Q{tools to work with images}
+  gem.description = %Q{tools to work with images. Average several images. get a color palette, or average color from a single image.}
+  gem.email = "chris@the55.com"
+  gem.authors = ["chris a", "matthew shanley"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
